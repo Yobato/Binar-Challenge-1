@@ -1,0 +1,82 @@
+Andika Perdana
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#myid {
+  background-color: blue;
+}
+
+div.laptop {
+  background-color: gray;
+}
+/*<div class='myclass'></div> */
+
+div .laptop {
+  background-color: red;
+}
+
+/* mencari class laptop di dalam div
+ tag html apapun selama punya class laptop */
+
+/*<div>
+  <div>
+      <div>
+          <p class='laptop'></p> 
+          <h1 class='laptop'></h1>
+        </div>
+    </div>
+</div> */
+
+div>.laptop {
+  background-color: red;
+}
+
+/*<div>
+  <p class='laptop'></p> //tag html apapun selama 1 tingkat di dalam div punya class laptop
+    <h1 class='laptop'></h1>
+</div> 
+===========================
+<div>
+  <div class='laptop'>
+      <p ></p> //tag html apapun selama 1 tingkat di dalam div punya class laptop
+    <h1 ></h1>
+    </div>
+</div> 
+*/
+
+
+
+div.laptop .myclass1 {
+  background-color: red;
+}
+
+div{
+  width:50px;
+    height:50px;
+}
+
+
+</style>
+</head>
+<body>
+
+
+<p id="myid" class="myclass">This is some text in a paragraph.</p>
+<p class='myclass'>This is some text in a paragraph.</p>
+
+<div class='laptop'>
+  <div>
+     <p class='myclass1'>test123</p>
+     <h6 class='myclass1'>test123</h6>
+    </div>
+</div>
+
+<div>
+ <p class='myclass1'>test123</p>
+</div>
+
+
+</body>
+</html>
