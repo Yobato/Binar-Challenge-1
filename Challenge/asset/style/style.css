@@ -56,6 +56,7 @@ a {
 .fa-angle-left,
 .fa-angle-right {
   background-color: #5cb85f;
+  padding: 12px 16px;
   border-radius: 50%;
 }
 
@@ -71,11 +72,4 @@ a {
   height: 80px !important;
   object-fit: cover;
   border-radius: 50%;
-}
-
-.owl-prev,
-.owl-next {
-  background-color: #5cb85f;
-  padding: 16px 16px !important;
-  border-radius: 100%;
 }
