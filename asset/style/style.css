@@ -1,5 +1,8 @@
 @import url('http://fonts.cdnfonts.com/css/helvetica-2');
 
+html {
+  scroll-behavior: smooth;
+}
 
 .btn-nav {
   background-color: #5cb85f;
