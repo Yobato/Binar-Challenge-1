@@ -122,3 +122,19 @@ a {
   object-fit: cover;
   border-radius: 50%;
 }
+
+@media screen and (min-width: 985px) {
+  #service_img_2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 985px) {
+  #service_img {
+    display: none;
+  }
+
+  #service_img_2 {
+    display: block;
+  }
+}
